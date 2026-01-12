@@ -2,11 +2,6 @@
 
 A production-ready **multi-agent AI personal assistant** built with LangChain, featuring Google Calendar and Gmail integration. This project demonstrates the **supervisor pattern** for AI agent orchestration.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![LangChain](https://img.shields.io/badge/LangChain-0.3+-green.svg)
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-2.0-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-purple.svg)
-
 ## 🎯 Project Overview
 
 This project showcases advanced AI engineering concepts:
@@ -73,7 +68,7 @@ This project showcases advanced AI engineering concepts:
 
 - Python 3.10 or higher
 - Google Cloud account (for Calendar and Gmail APIs)
-- Google Gemini API key
+- Groq API key
 
 ### Installation
 
@@ -156,12 +151,6 @@ Enable the following APIs for your project:
 6. **Download the JSON file**
 7. Rename it to `credentials.json`
 8. Place it in the project root directory
-
-### Step 5: Get Gemini API Key
-
-1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey)
-2. Create an API key
-3. Add it to your `.env` file as `GOOGLE_API_KEY`
 
 ## 📁 Project Structure
 
@@ -302,16 +291,6 @@ assistant.reset_conversation()
 
 ## 📝 Resume Description
 
-> **Personal Assistant with Multi-Agent Architecture**
-> 
-> Built a production-ready AI personal assistant using LangChain's supervisor pattern. The system features:
-> - Multi-agent orchestration with specialized Calendar and Email agents
-> - Real integration with Google Calendar and Gmail APIs
-> - Human-in-the-loop review for sensitive actions
-> - Interactive CLI with rich terminal UI
-> - Conversation memory for context-aware responses
-> 
-> **Technologies**: Python, LangChain, LangGraph, Google Gemini, Google Calendar API, Gmail API, OAuth 2.0
 
 ## 📄 License
 
@@ -325,4 +304,3 @@ MIT License - feel free to use this project for learning and portfolio purposes.
 
 ---
 
-Made with ❤️ by Ezhil
